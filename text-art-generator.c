@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
+///1st layer
 void first_layer(char s[], char c){
     for(int i = 0; i < strlen(s); i++){
         if(s[i] == 'A' || s[i] == 'a'){
@@ -88,6 +89,7 @@ void first_layer(char s[], char c){
     printf("\n");
 }
 
+///2nd layer
 void second_layer(char s[], char c){
     for(int i = 0; i < strlen(s); i++){
         if(s[i] == 'A' || s[i] == 'a'){
@@ -175,6 +177,8 @@ void second_layer(char s[], char c){
     printf("\n");
 
 }
+
+///3nd layer
 void third_layer(char s[], char c){
     for(int i = 0; i < strlen(s); i++){
         if(s[i] == 'A' || s[i] == 'a'){
@@ -261,6 +265,8 @@ void third_layer(char s[], char c){
     }
     printf("\n");
 }
+
+///4th layer
 void fourth_layer(char s[], char c){
     for(int i = 0; i < strlen(s); i++){
         if(s[i] == 'A' || s[i] == 'a'){
@@ -347,6 +353,8 @@ void fourth_layer(char s[], char c){
     }
     printf("\n");
 }
+
+///5th layer
 void fifth_layer(char s[], char c){
     for(int i = 0; i < strlen(s); i++){
         if(s[i] == 'A' || s[i] == 'a'){
